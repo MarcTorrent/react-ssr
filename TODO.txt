@@ -1,0 +1,17 @@
+- loadData by component, not by page / route
+- have webpack config different from pro to dev
+- remove componentDidMount fetch for data in client and use always loadData (see react-redux-universal with redial approach, but avoid using redial).
+- add .eslintrc
+- webpack code splitting
+- webpack asset management
+- webpack code splitting for Routes
+- loading new reducers async for code splitting
+- scss loading --> FOUC
+- image handling
+- webpack production version
+- adding redux-saga for data loading
+- redux-saga with code splitting
+- testing with enzyme and jest
+- add graphQL, apollo, to get data from api
+- add redux dev tools for development
+- add HMR for development
